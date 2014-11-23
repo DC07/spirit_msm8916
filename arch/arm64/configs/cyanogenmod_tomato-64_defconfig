@@ -1,6 +1,6 @@
 #
 # Automatically generated file; DO NOT EDIT.
-# Linux/arm64 3.10.49 Kernel Configuration
+# Linux/arm64 3.10.51 Kernel Configuration
 # Spirit Configs
 CONFIG_LOCALVERSION="-Spirit.Kernel-r3"
 CONFIG_FB_MSM_MDSS_KCAL_CTRL=y
