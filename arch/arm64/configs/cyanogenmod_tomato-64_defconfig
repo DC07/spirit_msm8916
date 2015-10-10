@@ -2,7 +2,7 @@
 # Automatically generated file; DO NOT EDIT.
 # Linux/arm64 3.10.49 Kernel Configuration
 # Spirit Configs
-CONFIG_LOCALVERSION="-Spirit.Kernel"
+CONFIG_LOCALVERSION="-Spirit.Kernel-r1"
 CONFIG_FB_MSM_MDSS_KCAL_CTRL=y
 CONFIG_FRANDOM=y
 CONFIG_IOSCHED_BFQ=y
