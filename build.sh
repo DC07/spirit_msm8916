@@ -1,3 +1,4 @@
+make clean && make mrproper
 export KBUILD_BUILD_USER="devesh"
 export KBUILD_BUILD_HOST="work2"
 export ARCH=arm64
