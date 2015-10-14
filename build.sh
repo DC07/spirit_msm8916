@@ -76,16 +76,13 @@ esac
 
 rm -rf $OUT_DIR/Spirit*.zip
 rm -rf $OUT_DIR/Kernel*.zip
-rm -rf $OUT_DIR/modules/*
-rm -rf $OUT_DIR/zImage
-rm -rf $OUT_DIR/dtb
+rm -rf $OUT_DIR/system/lib/modules/*
+rm -rf $OUT_DIR/tools/Image
 rm -rf $OUT_DIR/*.img
-cp $KERNEL_DIR/arch/arm64/boot/Image  $OUT_DIR/tools/image
-cp $KERNEL_DIR/arch/arm64/boot/dt.img  $OUT_DIR/tools/dt.img
-mv $OUT_DIR/image $OUT_DIR/zImage
+cp $KERNEL_DIR/arch/arm64/boot/Image  $OUT_DIR/tools/Image
 cp $MODULES_DIR/*.ko $OUT_DIR/system/lib/modules/
 cd $OUT_DIR
-zip -r Spirit.Kernel-rx-$(date +"%Y-%m-%d"-%H%M).zip *
+zip -r Spirit.Kernel-rx-$(date +"%Y%m%d").zip *
 cd $KERNEL_DIR
 BUILD_END=$(date +"%s")
 DIFF=$(($BUILD_END - $BUILD_START))
