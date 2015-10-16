@@ -22,13 +22,13 @@ yellow='\033[0;33m'
 red='\033[0;31m'
 nocol='\033[0m'
 # Modify the following variable if you want to build
-export CROSS_COMPILE="/home/devesh/spirit/tc/aarch64/aarch64-linux-android-4.9-kernel/bin/aarch64-linux-android-"
-export LD_LIBRARY_PATH=home/devesh/spirit/tc/aarch64/aarch64-linux-android-4.9-kernel/lib/
+export CROSS_COMPILE="/home/devesh/spirit/tc/aarch64/aarch64-linux-android-5.2-kernel/bin/aarch64-linux-android-"
+export LD_LIBRARY_PATH=home/devesh/spirit/tc/aarch64/aarch64-linux-android-5.2-kernel/lib/
 export ARCH=arm64
 export SUBARCH=arm64
 export KBUILD_BUILD_USER="devesh"
 export KBUILD_BUILD_HOST="work2"
-STRIP="/home/devesh/spirit/tc/aarch64/aarch64-linux-android-4.9-kernel/bin/aarch64-linux-android-strip"
+STRIP="/home/devesh/spirit/tc/aarch64/aarch64-linux-android-5.2-kernel/bin/aarch64-linux-android-strip"
 MODULES_DIR=/home/devesh/spirit/common
 OUT_DIR=/home/devesh/spirit/tomato
 
